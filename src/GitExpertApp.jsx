@@ -4,7 +4,7 @@ import {AddCategory, GifGrid} from './components';
 
 const GitExpertApp = () => {
 
-    const [ categories, setCategories] = useState(['one punch man']);
+    const [ categories, setCategories] = useState(['NVIDIA NEWS']);
 
     console.log(categories)
 
@@ -18,7 +18,7 @@ const GitExpertApp = () => {
 
   return (
     <>
-      <h1>GitExpertApp</h1>
+      <h1>Gif Expert App</h1>
 
       <AddCategory 
       onNewCategory={ value => onAddCategory(value)}
